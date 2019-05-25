@@ -365,8 +365,8 @@ else if (kicked) {
     if ((collision_rectangle(bbox_left-4,bbox_top+4,bbox_left,bbox_bottom+4,obj_solid,0,0)) &amp;&amp; (hspeed &lt; 0))
     || ((collision_rectangle(bbox_right,bbox_top+4,bbox_right+4,bbox_bottom+4,obj_solid,0,0)) &amp;&amp; (hspeed &gt; 0)) {
     
-        if (!collision_rectangle(bbox_left,bbox_bottom,bbox_right,bbox_bottom+4,obj_solidtop,0,0))
-        &amp;&amp; (!collision_rectangle(bbox_left,bbox_bottom,bbox_right,bbox_bottom+4,obj_slopeparent,1,0)) {
+        if (!collision_rectangle(x,bbox_bottom,x,bbox_bottom+4,obj_solidtop,0,0))
+        &amp;&amp; (!collision_rectangle(x,bbox_bottom,x,bbox_bottom+4,obj_slopeparent,1,0)) {
         
             //Move 4 pixels downwards.
             if (check == false) {

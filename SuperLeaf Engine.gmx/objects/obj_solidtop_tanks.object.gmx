@@ -101,7 +101,7 @@ if (collision_rectangle(bbox_left,bbox_top-5,bbox_right,bbox_top+4,obj_mario,0,0
             <string>///Tank ground logic
 
 //Stay on sight
-x = ceil(view_xview);
+x = view_xview[0];
 </string>
           </argument>
         </arguments>
